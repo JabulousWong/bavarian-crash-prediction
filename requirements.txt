@@ -1,0 +1,19 @@
+# Analysis environment (versions used for the reported results; Python 3.14)
+numpy==2.4.4
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+statsmodels==0.15.0
+imbalanced-learn==0.14.2
+polars==1.44.2
+pyarrow==25.0.1
+shapely==2.2.0
+matplotlib==3.11.2
+openpyxl==3.1.5
+threadpoolctl==3.7.0
+# PyTorch for the sequence / graph models (phase6, phase8, phase9).
+# Install the build matching your CUDA version, see https://pytorch.org
+torch==2.11.0
+
+# Only needed for dlm/export_dlm.py (one-off export of the Basis-DLM road network):
+# pyogrio==0.12.1

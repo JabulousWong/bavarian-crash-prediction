@@ -1,0 +1,45 @@
+# ---- Data (never commit) ----
+accidents/
+autobahn/
+waze_alerts/
+bast/
+h1100d/
+h1101c/
+data/
+traffic_case_output/
+analysis/results/
+analysis/cache/
+dlm/*.parquet
+dlm/*.npy
+viz/basemap_bavaria.json
+
+# Data / binary file types anywhere
+*.parquet
+*.npy
+*.npz
+*.csv
+*.xlsx
+*.zip
+*.gpkg
+*.pkl
+*.pt
+
+# ---- Generated outputs ----
+thesis/image/
+thesis/audit_results/
+paper/figures/*.pdf
+paper/figures/*.png
+paper/figures/short/*.pdf
+paper/figures/short/*.png
+*.log
+
+# ---- Python / editors ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.claude/
+.DS_Store
